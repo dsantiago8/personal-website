@@ -59,6 +59,43 @@ export default function Home() {
         </div>
       </section>
 
+    {/* Timeline Section */}
+    <section id="timeline" className="bg-slate-900 text-white py-20 px-6">
+      <div className="max-w-4xl mx-auto">
+        <h2 className="text-3xl font-semibold mb-2">My Employment History</h2>
+        <p className="text-slate-400 mb-12">Here is a timeline of the organizations I have worked for.</p>
+
+        <div className="relative border-l border-slate-700">
+          {/* Timeline Items */}
+          {[
+            {
+              year: "2025",
+              text: "[INSERT]",
+            },
+            {
+              year: "Late 2024",
+              text: "[INSERT]",
+            },
+            {
+              year: "2023",
+              text: "[INSERT]",
+            },
+            {
+              year: "2022",
+              text: "[INSERT]",
+            },
+          ].map((item, i) => (
+            <div key={i} className="mb-10 ml-4">
+              <div className="absolute w-3 h-3 bg-slate-300 rounded-full -left-1.5 mt-1.5 border border-slate-800" />
+              <h3 className="text-xl font-bold">{item.year}</h3>
+              <p className="text-slate-400 mt-1">{item.text}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+
       {/* Call to Action */}
       <section id="contact" className="bg-slate-100 py-16 px-6">
         <div className="max-w-4xl mx-auto text-center">
