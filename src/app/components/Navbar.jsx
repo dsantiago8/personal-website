@@ -16,6 +16,7 @@ export default function Navbar() {
           <li><a href="#about" className="hover:text-black transition">About</a></li>
           <li><a href="#projects" className="hover:text-black transition">Projects</a></li>
           <li><a href="#contact" className="hover:text-black transition">Contact</a></li>
+          <li><a href="#timeline" className="hover:text-black transition">Timeline</a></li>
         </ul>
 
         {/* Mobile Toggle */}
@@ -44,6 +45,7 @@ export default function Navbar() {
           <li><a href="#about" className="block hover:text-black transition" onClick={() => setMenuOpen(false)}>About</a></li>
           <li><a href="#projects" className="block hover:text-black transition" onClick={() => setMenuOpen(false)}>Projects</a></li>
           <li><a href="#contact" className="block hover:text-black transition" onClick={() => setMenuOpen(false)}>Contact</a></li>
+          <li><a href="#timeline" className="block hover:text-black transition" onClick={() => setMenuOpen(false)}>Timeline</a></li>
         </ul>
       )}
     </nav>
