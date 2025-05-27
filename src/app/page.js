@@ -28,7 +28,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="bg-gray-50 py-16 px-6">
+      <section id="about" className="bg-gray-50 py-16 px-6">
         <div className="text-center max-w-3xl mx-auto">
           <span className="text-sm uppercase tracking-wide text-slate-500">About Me</span>
           <h2 className="text-3xl font-semibold mt-2 mb-4">Designing With Purpose</h2>
@@ -39,7 +39,7 @@ export default function Home() {
       </section>
 
       {/* Project Cards */}
-      <section className="max-w-6xl mx-auto px-6 py-20">
+      <section id="projects" className="max-w-6xl mx-auto px-6 py-20">
         <div className="mb-12 text-center">
           <h2 className="text-3xl font-semibold">Projects Showcase</h2>
           <p className="text-slate-600 mt-2">A few highlights from recent work</p>
@@ -60,7 +60,7 @@ export default function Home() {
       </section>
 
       {/* Call to Action */}
-      <section className="bg-slate-100 py-16 px-6">
+      <section id="contact" className="bg-slate-100 py-16 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl sm:text-3xl font-semibold mb-4">Interested in Working Together?</h2>
           <p className="mb-6 text-slate-600">Let’s talk about how I can help bring your ideas to life.</p>
