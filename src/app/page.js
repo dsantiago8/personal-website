@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main className="text-slate-800 bg-white">
+    <main id="top" className="text-slate-800 bg-white">
       {/* Hero Section */}
       <section className="flex flex-col-reverse md:flex-row items-center justify-between gap-8 px-6 py-20 max-w-6xl mx-auto">
         <div>

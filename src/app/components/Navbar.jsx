@@ -9,7 +9,10 @@ export default function Navbar() {
     <nav className="bg-white border-b shadow-sm sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Brand */}
-        <div className="text-xl font-semibold text-slate-800">Diego Santiago</div>
+        <a href="#top" className="text-xl font-semibold text-slate-800 hover:text-black transition">
+          Diego Santiago
+        </a>
+
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6 text-slate-600 font-medium">
