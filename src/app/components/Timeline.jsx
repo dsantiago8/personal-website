@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 
 const timelineItems = [
   {
-    year: "2025",
-    text: "Co-Founder, CTO, and Creative Director at The Confricated Company. Oversaw ecommerce ops, platform management, and web development using Next.js, TailwindCSS, PostgreSQL, and MedusaJS.",
+    year: "May 2025",
+    text: "Graduation! Computer Science and Spanish Studies double major @Occidental College",
   },
   {
     year: "Late 2024",
-    text: "Software Engineering Intern at Occidental College Biochemistry Dept. Built a scheduling app with Flask + React. Used SQLAlchemy and data analysis to improve efficiency.",
+    text: "BioChem Website",
   },
   {
     year: "2023",
@@ -17,6 +17,14 @@ const timelineItems = [
   },
   {
     year: "2022",
+    text: "Mentor for Student-Athlete Program in Maryland. Led workshops and mentored underprivileged children in academic and social development.",
+  },
+  {
+    year: "2021",
+    text: "Mentor for Student-Athlete Program in Maryland. Led workshops and mentored underprivileged children in academic and social development.",
+  },
+  {
+    year: "2020",
     text: "Mentor for Student-Athlete Program in Maryland. Led workshops and mentored underprivileged children in academic and social development.",
   },
 ];
@@ -41,7 +49,7 @@ export default function Timeline() {
         <h2 className="text-3xl font-semibold mb-2">My Employment History</h2>
         <p className="text-slate-400 mb-12">Here is a timeline of the organizations I have worked for.</p>
 
-        <div className="relative border-l border-slate-700">
+        <div className="relative border-l border-slate-700 max-h-[600px] overflow-y-auto pr-4 custom-scrollbar">
           {timelineItems.map((item, i) => (
             <motion.div
               key={i}
