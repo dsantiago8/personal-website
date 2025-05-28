@@ -42,25 +42,63 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Project Cards */}
-      <section id="projects" className="max-w-6xl mx-auto px-6 py-20">
-        <div className="mb-12 text-center">
-          <h2 className="text-3xl font-semibold">Projects Showcase</h2>
-          <p className="text-slate-600 mt-2">A few highlights from recent work</p>
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-          {[
-            { title: "Sleep Tracker App", desc: "iOS app using Swift & HealthKit." },
-            { title: "Community Listings", desc: ".NET + PostgreSQL app for local resource sharing." },
-            { title: "TBD", desc: "Interactive phonetics visualizer built in Python." },
-            { title: "TBD", desc: "AI chatbot to help with language learning." }
-          ].map((proj, i) => (
-            <div key={i} className="bg-white border rounded-xl p-4 shadow hover:shadow-md transition">
-              <h3 className="font-semibold text-lg mb-2">{proj.title}</h3>
-              <p className="text-slate-600 text-sm">{proj.desc}</p>
+      {/* Tech Stack Section */}
+      <section id="tech-stack" className="bg-white text-slate-800 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-semibold mb-6 text-center">Tech Stack</h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+            {/* Programming Languages */}
+            <div>
+              <h3 className="text-xl font-semibold mb-2 text-slate-800">Programming Languages</h3>
+              <ul className="space-y-1 text-slate-600 pl-4 list-disc">
+                <li>C++</li>
+                <li>HTML/CSS</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Swift</li>
+              </ul>
             </div>
-          ))}
+
+            {/* Tools & Frameworks */}
+            <div>
+              <h3 className="text-xl font-semibold mb-2 text-slate-800">Tools & Frameworks</h3>
+              <ul className="space-y-1 text-slate-600 pl-4 list-disc">
+                <li>ASP.NET</li>
+                <li>Flask</li>
+                <li>Git</li>
+                <li>HealthKit</li>
+                <li>MySQL</li>
+                <li>Next.js</li>
+                <li>PostgreSQL</li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </section>
+
+      {/* Project Cards */}
+      <section id="projects" className="bg-gray-50 py-20 px-6">
+        <div className="max-w-6xl mx-auto px-6 py-20">
+          <div className="mb-12 text-center">
+            <h2 className="text-3xl font-semibold">Projects Showcase</h2>
+            <p className="text-slate-600 mt-2">A few highlights from recent work</p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+            {[
+              { title: "Sleep Tracker App", desc: "iOS app using Swift & HealthKit." },
+              { title: "Community Listings", desc: ".NET + PostgreSQL app for local resource sharing." },
+              { title: "TBD", desc: "Interactive phonetics visualizer built in Python." },
+              { title: "TBD", desc: "AI chatbot to help with language learning." }
+            ].map((proj, i) => (
+              <div key={i} className="bg-white border rounded-xl p-4 shadow hover:shadow-md transition">
+                <h3 className="font-semibold text-lg mb-2">{proj.title}</h3>
+                <p className="text-slate-600 text-sm">{proj.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>  
       </section>
 
     {/* Timeline Section */}
