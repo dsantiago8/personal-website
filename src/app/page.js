@@ -1,7 +1,22 @@
 import Image from 'next/image';
 import { motion } from "framer-motion";
 import Timeline from "./components/Timeline";
-
+import {
+  SiCplusplus,
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiPython,
+  SiSwift,
+  SiDotnet,
+  SiFlask,
+  SiGit,
+  SiApple,
+  SiMysql,
+  SiNextdotjs,
+  SiPostgresql,
+} from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 
 
 export default function Home() {
@@ -50,28 +65,28 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {/* Programming Languages */}
             <div>
-              <h3 className="text-xl font-semibold mb-2 text-slate-800">Programming Languages</h3>
-              <ul className="space-y-1 text-slate-600 pl-4 list-disc">
-                <li>C++</li>
-                <li>HTML/CSS</li>
-                <li>Java</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>Swift</li>
+              <h3 className="text-xl font-semibold mb-4">Programming Languages</h3>
+              <ul className="space-y-3 text-slate-600">
+                <li className="flex items-center gap-2"><SiCplusplus /> C++</li>
+                <li className="flex items-center gap-2"><SiHtml5 /> HTML/CSS</li>
+                <li className="flex items-center gap-2"><FaJava /> Java</li>
+                <li className="flex items-center gap-2"><SiJavascript /> JavaScript</li>
+                <li className="flex items-center gap-2"><SiPython /> Python</li>
+                <li className="flex items-center gap-2"><SiSwift /> Swift</li>
               </ul>
             </div>
 
             {/* Tools & Frameworks */}
             <div>
-              <h3 className="text-xl font-semibold mb-2 text-slate-800">Tools & Frameworks</h3>
-              <ul className="space-y-1 text-slate-600 pl-4 list-disc">
-                <li>ASP.NET</li>
-                <li>Flask</li>
-                <li>Git</li>
-                <li>HealthKit</li>
-                <li>MySQL</li>
-                <li>Next.js</li>
-                <li>PostgreSQL</li>
+              <h3 className="text-xl font-semibold mb-4">Tools & Frameworks</h3>
+              <ul className="space-y-3 text-slate-600">
+                <li className="flex items-center gap-2"><SiDotnet /> ASP.NET</li>
+                <li className="flex items-center gap-2"><SiFlask /> Flask</li>
+                <li className="flex items-center gap-2"><SiGit /> Git</li>
+                <li className="flex items-center gap-2"><SiApple /> HealthKit</li>
+                <li className="flex items-center gap-2"><SiMysql /> MySQL</li>
+                <li className="flex items-center gap-2"><SiNextdotjs /> Next.js</li>
+                <li className="flex items-center gap-2"><SiPostgresql /> PostgreSQL</li>
               </ul>
             </div>
           </div>
