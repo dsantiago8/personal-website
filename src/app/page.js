@@ -31,7 +31,9 @@ export default function Home() {
           </p>
           <div className="flex gap-4">
             <button className="bg-black text-white px-4 py-2 rounded hover:bg-slate-800 transition">Hire Me</button>
-            <button className="border border-black px-4 py-2 rounded hover:bg-slate-100 transition">My GitHub</button>
+            <a href="https://github.com/dsantiago8" target="_blank" rel="noopener noreferrer" className="hover:text-black transition">
+              <button className="border border-black px-4 py-2 rounded hover:bg-slate-100 transition">My GitHub</button>
+            </a>
           </div>
           <div className="mt-6 flex items-center gap-4 text-xl text-slate-600">
             <a href="https://www.linkedin.com/in/diego-santiago-128963287/" target="_blank" rel="noopener noreferrer" className="hover:text-black transition">
