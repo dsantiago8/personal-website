@@ -16,7 +16,7 @@ import {
   SiNextdotjs,
   SiPostgresql,
 } from "react-icons/si";
-import { FaJava } from "react-icons/fa";
+import { FaJava, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 
 export default function Home() {
@@ -33,8 +33,13 @@ export default function Home() {
             <button className="bg-black text-white px-4 py-2 rounded hover:bg-slate-800 transition">Hire Me</button>
             <button className="border border-black px-4 py-2 rounded hover:bg-slate-100 transition">My GitHub</button>
           </div>
-          <div className="mt-6 text-sm text-slate-500">
-            Other socials: [YouTube] [LinkedIn] [Email Icon]
+          <div className="mt-6 flex items-center gap-4 text-xl text-slate-600">
+            <a href="https://www.linkedin.com/in/diego-santiago-128963287/" target="_blank" rel="noopener noreferrer" className="hover:text-black transition">
+              <FaLinkedin />
+            </a>
+            <a href="mailto:dsantruiz@gmail.com" className="hover:text-black transition">
+              <FaEnvelope />
+            </a>
           </div>
         </div>
         <img
@@ -62,22 +67,22 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-semibold mb-6 text-center">Tech Stack</h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div className="grid grid-cols-2 max-w-3xl mx-auto gap-16">
             {/* Programming Languages */}
-            <div>
+            <div className="text-right">
               <h3 className="text-xl font-semibold mb-4">Programming Languages</h3>
               <ul className="space-y-3 text-slate-600">
-                <li className="flex items-center gap-2"><SiCplusplus /> C++</li>
-                <li className="flex items-center gap-2"><SiHtml5 /> HTML/CSS</li>
-                <li className="flex items-center gap-2"><FaJava /> Java</li>
-                <li className="flex items-center gap-2"><SiJavascript /> JavaScript</li>
-                <li className="flex items-center gap-2"><SiPython /> Python</li>
-                <li className="flex items-center gap-2"><SiSwift /> Swift</li>
+                <li className="flex justify-end items-center gap-2"><SiCplusplus /> C++</li>
+                <li className="flex justify-end items-center gap-2"><SiHtml5 /> HTML/CSS</li>
+                <li className="flex justify-end items-center gap-2"><FaJava /> Java</li>
+                <li className="flex justify-end items-center gap-2"><SiJavascript /> JavaScript</li>
+                <li className="flex justify-end items-center gap-2"><SiPython /> Python</li>
+                <li className="flex justify-end items-center gap-2"><SiSwift /> Swift</li>
               </ul>
             </div>
 
             {/* Tools & Frameworks */}
-            <div>
+            <div className="text-left">
               <h3 className="text-xl font-semibold mb-4">Tools & Frameworks</h3>
               <ul className="space-y-3 text-slate-600">
                 <li className="flex items-center gap-2"><SiDotnet /> ASP.NET</li>
