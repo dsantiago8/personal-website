@@ -16,7 +16,7 @@ import {
   SiNextdotjs,
   SiPostgresql,
 } from "react-icons/si";
-import { FaJava, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaJava, FaLinkedin, FaEnvelope, FaGithub } from "react-icons/fa";
 
 
 export default function Home() {
@@ -31,8 +31,14 @@ export default function Home() {
           </p>
           <div className="flex gap-4">
             <button className="bg-black text-white px-4 py-2 rounded hover:bg-slate-800 transition">Hire Me</button>
-            <a href="https://github.com/dsantiago8" target="_blank" rel="noopener noreferrer" className="hover:text-black transition">
-              <button className="border border-black px-4 py-2 rounded hover:bg-slate-100 transition">My GitHub</button>
+            <a
+              href="https://github.com/dsantiago8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 border border-black px-4 py-2 rounded hover:bg-slate-100 transition"
+            >
+              <FaGithub className="text-lg" />
+              My GitHub
             </a>
           </div>
           <div className="mt-6 flex items-center gap-4 text-xl text-slate-600">
