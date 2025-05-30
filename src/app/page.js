@@ -30,7 +30,6 @@ export default function Home() {
             I build clean, fast, and user-friendly applications — combining design and development with clarity and care.
           </p>
           <div className="flex gap-4">
-            <button className="bg-black text-white px-4 py-2 rounded hover:bg-slate-800 transition">Hire Me</button>
             <a
               href="https://github.com/dsantiago8"
               target="_blank"
@@ -115,10 +114,10 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { title: "Sleep Tracker App", desc: "iOS app using Swift & HealthKit." },
+              { title: "NocOps: Sleep Better", desc: "iOS sleep tracker app developed using Swift & HealthKit." },
               { title: "Community Listings", desc: ".NET + PostgreSQL app for local resource sharing." },
-              { title: "TBD", desc: "Interactive phonetics visualizer built in Python." },
-              { title: "TBD", desc: "AI chatbot to help with language learning." }
+              { title: "Track-n-Snap", desc: "Arduino-based Face Tracker." },
+              { title: "Saving Dorado", desc: "Visual novel built using RenPy." }
             ].map((proj, i) => (
               <div key={i} className="bg-white border rounded-xl p-4 shadow hover:shadow-md transition">
                 <h3 className="font-semibold text-lg mb-2">{proj.title}</h3>

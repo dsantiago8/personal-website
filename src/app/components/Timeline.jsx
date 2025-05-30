@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 const timelineItems = [
-  { year: "May 2025", text: "Graduation! Computer Science and Spanish Studies double major @Occidental College" },
-  { year: "Late 2024", text: "BioChem Website" },
-  { year: "2023", text: "Interned with California Native Vote Project. Co-developed an interactive map with Leaflet.js and D3.js to support broadband in Indigenous communities." },
-  { year: "2022", text: "Mentor for Student-Athlete Program in Maryland. Led workshops and mentored underprivileged children in academic and social development." },
-  { year: "2021", text: "Mentor for Student-Athlete Program in Maryland. Led workshops and mentored underprivileged children in academic and social development." }
+  { year: "May 2025", text: "Graduation! Computer Science and Spanish Studies double major at Occidental College" },
+  { year: "2024", text: "Developed an iOS app using Swift to provide users with in-depth sleep insights and actionable recommendations, utilizing fuzzy set logic to interpret complex sleep patterns." },
+  { year: "2024", text: "Worked as a full-stack developer, implementing database routes, models, and designing the user interface." },
+  { year: "2023", text: "Won Best Overall Project for building a responsive web application that uses AI language models to parse through text files, video transcripts, and article URLs to generate reader-friendly summaries." },
+  { year: "2021", text: "Start of programming journey at Occidental College" }
 ];
 
 export default function Timeline() {
