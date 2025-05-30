@@ -50,7 +50,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <img
+        <Image
           src="/hero-image.jpg" // profile picture
           alt="Hero"
           width={320}
@@ -65,9 +65,9 @@ export default function Home() {
           <span className="text-sm uppercase tracking-wide text-slate-500">About Me</span>
           <h2 className="text-3xl font-semibold mt-2 mb-4">Designing With Purpose</h2>
           <p className="text-slate-600">
-          I began coding in high school, where I built my first project, a simple Pong clone, and quickly discovered a passion for creating things with code. Since then, I've pursued this interest both academically and creatively, earning a degree in Computer Science (with a concentration in software development) and another in Spanish Studies from Occidental College.
+          I began coding in high school, where I built my first project, a simple Pong clone, and quickly discovered a passion for creating things with code. Since then, I&#39;ve pursued this interest both academically and creatively, earning a degree in Computer Science (with a concentration in software development) and another in Spanish Studies from Occidental College.
 
-          Outside of tech, I enjoy playing soccer and was part of my school’s soccer club. I'm also an avid chess player, sci-fi reader, and pool enthusiast. In my free time, I like to draw and write poetry—sometimes blending the two to create visual poems or illustrated pieces. My love for building and storytelling, whether through code or art, continues to shape how I approach both technical challenges and creative projects.
+          Outside of tech, I enjoy playing soccer and was part of my school&#39;s soccer club. I&#39;m also an avid chess player, sci-fi reader, and pool enthusiast. In my free time, I like to draw and write poetry—sometimes blending the two to create visual poems or illustrated pieces. My love for building and storytelling, whether through code or art, continues to shape how I approach both technical challenges and creative projects.
           </p>
         </div>
       </section>
