@@ -138,8 +138,14 @@ export default function Home() {
           <h2 className="text-2xl sm:text-3xl font-semibold mb-4">Interested in Working Together?</h2>
           <p className="mb-6 text-slate-600">Let’s talk about how I can help bring your ideas to life.</p>
           <div className="flex justify-center gap-6 flex-wrap">
-            <button className="bg-black text-white px-6 py-3 rounded hover:bg-slate-800 transition">Schedule a Call</button>
-            <button className="border border-black px-6 py-3 rounded hover:bg-slate-200 transition">View My Work</button>
+            <a
+              href="https://calendly.com/dsantruiz/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-black text-white px-6 py-3 rounded hover:bg-slate-800 transition"
+            >
+              Schedule a Call
+            </a>
           </div>
         </div>
       </section>
